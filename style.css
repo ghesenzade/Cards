@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img {
+    margin-bottom: 30px;
+}
+.card {
+    padding: 50px;
+}
+.card .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.btn {
+    margin-top: 60px;
+}
+.btn a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #fff;
+    transition: .3s ease;
+}
+.btn a:hover {
+    color:  hsl(31, 77%, 52%);
+    background-color: antiquewhite;
+}
+.sedan a {
+    color:  hsl(31, 77%, 52%);
+}
+.luxury a{
+    color:  hsl(179, 100%, 13%);
+}
+.suv a {
+    color:hsl(184, 100%, 22%);
+}
+
+.card {
+    color: #fff;
+}
+.sedan {
+    border-radius: 10px 0 0 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+.suv {
+    background-color:hsl(184, 100%, 22%);
+}
+.luxury {
+    border-radius: 0 10px 10px 0;
+    background-color:  hsl(179, 100%, 13%);
+}
